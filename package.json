@@ -1,0 +1,12 @@
+{
+  "name": "100dayscodechallenge",
+  "version": "1.0.0",
+  "description": "Starting from very basics to advanced level on Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
