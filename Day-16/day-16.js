@@ -20,6 +20,7 @@ let laptops = [
 ];
 let [laptop1, laptop2] = laptops;
 console.log(laptop1);
+console.log(laptop2);
 // Question 48: Combining Arrays with Spread Operator: Suppose you're comparing prices of two different sets of
 // laptops.Use the spread operator to combine these arrays into a single array sorted in ascending order, then log
 // the result.
@@ -29,7 +30,7 @@ const combinedLaptop = [...laptops1, ...laptops2];
 combinedLaptop.sort((a, b) => a - b);
 console.log(combinedLaptop);
 // rest operator (...name) make array of different value in fuction
-// spread operator p = [...a,...b]
+// spread operator p = [...a,...b] ...a =[1,2.3]
 // In summary, this means that the rest operator is used to gather elements into an array, while the spread operator
 // is used to spread the content of an array.
 // function d(...d:number[]) {
